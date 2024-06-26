@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: test-non-local-gitops-repository
+spec:
+  url: https://github.com/jdubrick-ai/go-test-nonlocal-0626-gitops
